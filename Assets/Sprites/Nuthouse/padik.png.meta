@@ -1,0 +1,1193 @@
+fileFormatVersion: 2
+guid: 6631bb3924f11344d87366760713fd7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6973796126242325934
+    second: padik_0
+  - first:
+      213: -5081002156360195280
+    second: padik_1
+  - first:
+      213: 4115019176908184139
+    second: padik_2
+  - first:
+      213: 6650083321752758790
+    second: padik_3
+  - first:
+      213: 4774998042649900918
+    second: padik_4
+  - first:
+      213: -2159536057464956973
+    second: padik_5
+  - first:
+      213: 1020566746230318153
+    second: padik_6
+  - first:
+      213: 207676336307096863
+    second: padik_7
+  - first:
+      213: 7879806770181754772
+    second: padik_8
+  - first:
+      213: 8408441267907637752
+    second: padik_9
+  - first:
+      213: -2426393185052201657
+    second: padik_10
+  - first:
+      213: 4072095019448579616
+    second: padik_11
+  - first:
+      213: 221567591843293838
+    second: padik_12
+  - first:
+      213: -2802790473702623430
+    second: padik_13
+  - first:
+      213: 8689218661341155195
+    second: padik_14
+  - first:
+      213: 8777448747322633127
+    second: padik_15
+  - first:
+      213: -4164450212792166408
+    second: padik_16
+  - first:
+      213: -4118847734683830167
+    second: padik_17
+  - first:
+      213: 4784465146097320116
+    second: padik_18
+  - first:
+      213: 7845096491541913764
+    second: padik_19
+  - first:
+      213: -3834558896430117571
+    second: padik_20
+  - first:
+      213: 5452284797618056912
+    second: padik_21
+  - first:
+      213: -8581581517797965384
+    second: padik_22
+  - first:
+      213: -1628320874281264316
+    second: padik_23
+  - first:
+      213: -1685764124033953465
+    second: padik_24
+  - first:
+      213: -8638569634779309499
+    second: padik_25
+  - first:
+      213: 3219369092447236039
+    second: padik_26
+  - first:
+      213: 224241148077194660
+    second: padik_27
+  - first:
+      213: 993382901475958128
+    second: padik_28
+  - first:
+      213: -5316229725293536558
+    second: padik_29
+  - first:
+      213: -4580000001393145151
+    second: padik_30
+  - first:
+      213: -308998997274110733
+    second: padik_31
+  - first:
+      213: 6772787925984386155
+    second: padik_32
+  - first:
+      213: -7617722836044068236
+    second: padik_33
+  - first:
+      213: 133870949862035897
+    second: padik_34
+  - first:
+      213: -8896896943051007286
+    second: padik_35
+  - first:
+      213: -8420512964712450719
+    second: padik_36
+  - first:
+      213: -1111602104747045500
+    second: padik_37
+  - first:
+      213: 1521169954691303457
+    second: padik_38
+  - first:
+      213: 1810318834444336029
+    second: padik_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: padik_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 27
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ab4573f59183f90800000000000000
+      internalID: -6973796126242325934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 27
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03328278577ac79b0800000000000000
+      internalID: -5081002156360195280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 27
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a588b932c7b1930800000000000000
+      internalID: 4115019176908184139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 27
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60aa2d72c87d94c50800000000000000
+      internalID: 6650083321752758790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 27
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6773557bb63344240800000000000000
+      internalID: 4774998042649900918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 27
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7572fb569c702e0800000000000000
+      internalID: -2159536057464956973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_6
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 27
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94462aa6c08c92e00800000000000000
+      internalID: 1020566746230318153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 27
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dc6dd0780d1e200800000000000000
+      internalID: 207676336307096863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 27
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fc66b2282ba5d60800000000000000
+      internalID: 7879806770181754772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 27
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1be5888c8c0b470800000000000000
+      internalID: 8408441267907637752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 37
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74de887f048b35ed0800000000000000
+      internalID: -2426393185052201657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 31
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026bed568dcf28830800000000000000
+      internalID: 4072095019448579616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 37
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aee850d8a231300800000000000000
+      internalID: 221567591843293838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 31
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a373b1bf9ec7a19d0800000000000000
+      internalID: -2802790473702623430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 37
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f4fe4c55e469870800000000000000
+      internalID: 8689218661341155195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 31
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abec5a7123cfc970800000000000000
+      internalID: 8777448747322633127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 14
+        width: 3
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f719bd7896e436c0800000000000000
+      internalID: -4164450212792166408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 12
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9687f32dec9e6d6c0800000000000000
+      internalID: -4118847734683830167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_18
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 12
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b04e5183b5d56240800000000000000
+      internalID: 4784465146097320116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0e407a1b16fdc60800000000000000
+      internalID: 7845096491541913764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d08f30009e8cac0800000000000000
+      internalID: -3834558896430117571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de6940d2286aab40800000000000000
+      internalID: 5452284797618056912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b14894a31918e880800000000000000
+      internalID: -8581581517797965384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_23
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b9c14caca0769e0800000000000000
+      internalID: -1628320874281264316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741dbd3f576fa98e0800000000000000
+      internalID: -1685764124033953465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ad08fafa2ad1880800000000000000
+      internalID: -8638569634779309499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_26
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf6034f12f7dac20800000000000000
+      internalID: 3219369092447236039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adba27d22aac1300800000000000000
+      internalID: 224241148077194660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ddb685c7439cd00800000000000000
+      internalID: 993382901475958128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da918f3b35f836b0800000000000000
+      internalID: -5316229725293536558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca4cadb3429070c0800000000000000
+      internalID: -4580000001393145151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_31
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f456839c0736bbf0800000000000000
+      internalID: -308998997274110733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_32
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c9a532cb6cdfd50800000000000000
+      internalID: 6772787925984386155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_33
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a4638e079684690800000000000000
+      internalID: -7617722836044068236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_34
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1554c6bea9bd100800000000000000
+      internalID: 133870949862035897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 13
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca9f2a3e5fd78480800000000000000
+      internalID: -8896896943051007286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1653eb78214542b80800000000000000
+      internalID: -8420512964712450719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_37
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dc9f676cbc290f0800000000000000
+      internalID: -1111602104747045500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_38
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1284f58a3084c1510800000000000000
+      internalID: 1521169954691303457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_39
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bf041736b8f1910800000000000000
+      internalID: 1810318834444336029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: padik_40
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 12
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3a7eaf2f015e047abfbd7ac168d39a
+      internalID: -1868489212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1746683b6e699aa4bb4bc1e5e97e8183
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      padik_0: -6973796126242325934
+      padik_1: -5081002156360195280
+      padik_10: -2426393185052201657
+      padik_11: 4072095019448579616
+      padik_12: 221567591843293838
+      padik_13: -2802790473702623430
+      padik_14: 8689218661341155195
+      padik_15: 8777448747322633127
+      padik_16: -4164450212792166408
+      padik_17: -4118847734683830167
+      padik_18: 4784465146097320116
+      padik_19: 7845096491541913764
+      padik_2: 4115019176908184139
+      padik_20: -3834558896430117571
+      padik_21: 5452284797618056912
+      padik_22: -8581581517797965384
+      padik_23: -1628320874281264316
+      padik_24: -1685764124033953465
+      padik_25: -8638569634779309499
+      padik_26: 3219369092447236039
+      padik_27: 224241148077194660
+      padik_28: 993382901475958128
+      padik_29: -5316229725293536558
+      padik_3: 6650083321752758790
+      padik_30: -4580000001393145151
+      padik_31: -308998997274110733
+      padik_32: 6772787925984386155
+      padik_33: -7617722836044068236
+      padik_34: 133870949862035897
+      padik_35: -8896896943051007286
+      padik_36: -8420512964712450719
+      padik_37: -1111602104747045500
+      padik_38: 1521169954691303457
+      padik_39: 1810318834444336029
+      padik_4: 4774998042649900918
+      padik_40: -1868489212
+      padik_5: -2159536057464956973
+      padik_6: 1020566746230318153
+      padik_7: 207676336307096863
+      padik_8: 7879806770181754772
+      padik_9: 8408441267907637752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

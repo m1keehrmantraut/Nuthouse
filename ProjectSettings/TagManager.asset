@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - NPC
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - UILayer
+  - NPC
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 4144600957
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 2180562687
+    locked: 0
+  - name: Player
+    uniqueID: 560681873
+    locked: 0
+  - name: UI
+    uniqueID: 1503068737
+    locked: 0
+  - name: Interactive UI
+    uniqueID: 3940931279
+    locked: 0
+  m_RenderingLayers:
+  - Default

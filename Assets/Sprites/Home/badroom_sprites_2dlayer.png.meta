@@ -1,0 +1,488 @@
+fileFormatVersion: 2
+guid: 4449177de8ef1f042b193cc6675b4560
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8329703799205019343
+    second: badroom_sprites_2dlayer_0
+  - first:
+      213: -5142540476235652341
+    second: badroom_sprites_2dlayer_1
+  - first:
+      213: -2367179757087346095
+    second: badroom_sprites_2dlayer_2
+  - first:
+      213: 7265172453667878513
+    second: badroom_sprites_2dlayer_3
+  - first:
+      213: -3713967616056215337
+    second: badroom_sprites_2dlayer_4
+  - first:
+      213: -8710238794627343837
+    second: badroom_sprites_2dlayer_5
+  - first:
+      213: -5794903362678015207
+    second: badroom_sprites_2dlayer_6
+  - first:
+      213: -71556925175297965
+    second: badroom_sprites_2dlayer_7
+  - first:
+      213: 3019530569719444561
+    second: badroom_sprites_2dlayer_8
+  - first:
+      213: 7344219611260633284
+    second: badroom_sprites_2dlayer_9
+  - first:
+      213: 1233431467519478234
+    second: badroom_sprites_2dlayer_10
+  - first:
+      213: 6434043424459120783
+    second: badroom_sprites_2dlayer_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 37
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce36d3097d099370800000000000000
+      internalID: 8329703799205019343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 35
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03e7e6eea602a8b0800000000000000
+      internalID: -5142540476235652341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 31
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15230538d86162fd0800000000000000
+      internalID: -2367179757087346095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 13
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176b3d4aad313d460800000000000000
+      internalID: 7265172453667878513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 29
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d83aa17126557cc0800000000000000
+      internalID: -3713967616056215337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a196117f30f1780800000000000000
+      internalID: -8710238794627343837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b3cd7281e549fa0800000000000000
+      internalID: -5794903362678015207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 25
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35805bd0b57c10ff0800000000000000
+      internalID: -71556925175297965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 25
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1547f841e0787e920800000000000000
+      internalID: 3019530569719444561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_9
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0c5a933d8ebe560800000000000000
+      internalID: 7344219611260633284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 11
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9894c72670e1110800000000000000
+      internalID: 1233431467519478234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 35
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80e250d7605a4950800000000000000
+      internalID: 6434043424459120783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_12
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 22
+        width: 7
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e297023ce010e4448a20538ec8ba158d
+      internalID: -1080880612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: badroom_sprites_2dlayer_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 22
+        width: 5
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9080aaceea8435845a51b4e614abe67e
+      internalID: -1186362061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 182511991ca9fb347a020040b7442cf8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      badroom_sprites_2dlayer_0: 8329703799205019343
+      badroom_sprites_2dlayer_1: -5142540476235652341
+      badroom_sprites_2dlayer_10: 1233431467519478234
+      badroom_sprites_2dlayer_11: 6434043424459120783
+      badroom_sprites_2dlayer_12: -1080880612
+      badroom_sprites_2dlayer_13: -1186362061
+      badroom_sprites_2dlayer_2: -2367179757087346095
+      badroom_sprites_2dlayer_3: 7265172453667878513
+      badroom_sprites_2dlayer_4: -3713967616056215337
+      badroom_sprites_2dlayer_5: -8710238794627343837
+      badroom_sprites_2dlayer_6: -5794903362678015207
+      badroom_sprites_2dlayer_7: -71556925175297965
+      badroom_sprites_2dlayer_8: 3019530569719444561
+      badroom_sprites_2dlayer_9: 7344219611260633284
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

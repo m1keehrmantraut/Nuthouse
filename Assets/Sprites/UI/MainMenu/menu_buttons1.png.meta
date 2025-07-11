@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 7eacf3555fc7f564a9469685b8730723
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 457139075120981215
+    second: menu_buttons1_0
+  - first:
+      213: 1256526025614196799
+    second: menu_buttons1_1
+  - first:
+      213: 1473885636291075962
+    second: menu_buttons1_2
+  - first:
+      213: -699424128400873533
+    second: menu_buttons1_3
+  - first:
+      213: -1564777341750563593
+    second: menu_buttons1_4
+  - first:
+      213: -5317840122473786418
+    second: menu_buttons1_5
+  - first:
+      213: 8185099149810350878
+    second: menu_buttons1_6
+  - first:
+      213: 6372732101144094865
+    second: menu_buttons1_7
+  - first:
+      213: 1486244648534926840
+    second: menu_buttons1_8
+  - first:
+      213: 2936112625943120276
+    second: menu_buttons1_9
+  - first:
+      213: 4685843868457009067
+    second: menu_buttons1_10
+  - first:
+      213: 8045197096537660868
+    second: menu_buttons1_11
+  - first:
+      213: -2201592228724954075
+    second: menu_buttons1_12
+  - first:
+      213: -4020105163300579641
+    second: menu_buttons1_13
+  - first:
+      213: -8387618516935184445
+    second: menu_buttons1_14
+  - first:
+      213: -4339037676435329172
+    second: menu_buttons1_15
+  - first:
+      213: 8580837901556556922
+    second: menu_buttons1_16
+  - first:
+      213: -6169897368459187038
+    second: menu_buttons1_17
+  - first:
+      213: -4192908661046049716
+    second: menu_buttons1_18
+  - first:
+      213: 1468853064919603091
+    second: menu_buttons1_19
+  - first:
+      213: -4513554334788006965
+    second: menu_buttons1_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: menu_buttons1_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 69
+        width: 69
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd469891195185600800000000000000
+      internalID: 457139075120981215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_buttons1_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 42
+        width: 108
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3084cf43c3107110800000000000000
+      internalID: 1256526025614196799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_buttons1_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 16
+        width: 69
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f1eae5d2b447410800000000000000
+      internalID: 1473885636291075962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 47e73389e2f021a488c4538ef31e0db3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      menu_buttons1_0: 457139075120981215
+      menu_buttons1_1: 1256526025614196799
+      menu_buttons1_10: 4685843868457009067
+      menu_buttons1_11: 8045197096537660868
+      menu_buttons1_12: -2201592228724954075
+      menu_buttons1_13: -4020105163300579641
+      menu_buttons1_14: -8387618516935184445
+      menu_buttons1_15: -4339037676435329172
+      menu_buttons1_16: 8580837901556556922
+      menu_buttons1_17: -6169897368459187038
+      menu_buttons1_18: -4192908661046049716
+      menu_buttons1_19: 1468853064919603091
+      menu_buttons1_2: 1473885636291075962
+      menu_buttons1_20: -4513554334788006965
+      menu_buttons1_21: 1233258304
+      menu_buttons1_3: -699424128400873533
+      menu_buttons1_4: -1564777341750563593
+      menu_buttons1_5: -5317840122473786418
+      menu_buttons1_6: 8185099149810350878
+      menu_buttons1_7: 6372732101144094865
+      menu_buttons1_8: 1486244648534926840
+      menu_buttons1_9: 2936112625943120276
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
