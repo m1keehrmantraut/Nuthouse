@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class InteractableObject : MonoBehaviour
 {
@@ -79,5 +80,10 @@ public class InteractableObject : MonoBehaviour
     public void ChangeInteractStatus(bool mode)
     {
         isActive = mode;
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
     }
 }

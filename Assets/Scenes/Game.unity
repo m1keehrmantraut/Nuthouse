@@ -794,7 +794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3140b77a03aa34549abfdb922e1b6f4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 1
 --- !u!114 &128677104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,16 +810,16 @@ MonoBehaviour:
   interactEvents:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 128677103}
-        m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
-        m_MethodName: LoadSceneWithFade
+      - m_Target: {fileID: 128677104}
+        m_TargetAssemblyTypeName: InteractableObject, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: HomeLocation
+          m_StringArgument: Stairs
           m_BoolArgument: 0
         m_CallState: 2
   info: {fileID: 0}
@@ -3126,14 +3125,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86153af659870b74b8a7cfba2b313cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onDialogueStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onDialogueFinished:
+    m_PersistentCalls:
+      m_Calls: []
   displayText: {fileID: 514974202}
   dialogueLines:
-  - "\u041F\u0440\u0438\u0432\u0435\u0442\u0438\u043A\u0438, \u0442\u044B \u0440\u0435\u0430\u043B\u044C\u043D\u043E
-    \u0434\u0443\u043C\u0430\u0435\u0448\u044C \u0447\u0442\u043E \u0441\u043C\u043E\u0436\u0435\u0448\u044C
-    \u0431\u0435\u0436\u0430\u0442\u044C \u043E\u0442\u0441\u044E\u0434\u0430"
-  - "\u0425\u0430\u0445, \u0442\u044B \u0432\u0435\u0434\u044C \u0441\u0430\u043C
-    \u0437\u043D\u0430\u0435\u0448\u044C, \u0447\u0442\u043E \u044D\u0442\u043E \u0431\u0440\u0435\u0434"
-  - "\u041D\u0443 \u0447\u0442\u043E, \u0443\u0434\u0430\u0447\u0438 \u0442\u0435\u0431\u0435"
+  - qerwqeqw
+  - qwe
+  - ewrew
   fadeDuration: 2
 --- !u!114 &535247150
 MonoBehaviour:
@@ -7500,9 +7502,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: 0.04074074
+    width: 0.3703125
+    height: 0.37031248
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34

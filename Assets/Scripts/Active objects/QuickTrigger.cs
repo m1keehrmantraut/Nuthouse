@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class QuickTrigger : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class QuickTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player") && !string.IsNullOrEmpty(sceneToLoad))
         {
-            Invoke(nameof(DoSceneTransition), delay);
+            SceneManager.LoadScene(sceneToLoad);
         }
     }
 
@@ -18,11 +19,11 @@ public class QuickTrigger : MonoBehaviour
     {
         if (markSceneCompleted)
         {
-            SceneTransitionManager.Instance.CompleteSceneAndLoad(sceneToLoad);
+            //GameProgress.Instance.CompleteSceneAndLoad(sceneToLoad);
         }
         else
         {
-            SceneTransitionManager.Instance.LoadSceneWithFade(sceneToLoad);
+            //GameProgress.Instance.LoadSceneWithFade(sceneToLoad);
         }
     }
 }
