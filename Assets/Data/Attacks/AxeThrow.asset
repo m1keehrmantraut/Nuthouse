@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0cfe41542940691285e1ff68c21b7b2, type: 3}
+  m_Name: AxeThrow
+  m_EditorClassIdentifier: 
+  windup: 0.12
+  recovery: 0.3
+  throwForce: 18
+  upwardBias: 2
+  inheritOwnerVelocity: 1
+  spinSpeed: 720
+  physicalSpin: 0
+  damage: 35
+  knockback: 6
+  stickToEnemy: 1
+  stickToWorld: 1
+  bounceOnNoStick: 0.3
+  despawnTime: 0
+  axePrefab: {fileID: 4291267888366445319, guid: 0a63ac8fd9fd8c7698eaa5e839d1fcb1, type: 3}
+  animTrigger: ThrowAxe
+  startAxeCount: 2

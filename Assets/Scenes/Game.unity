@@ -9842,6 +9842,7 @@ GameObject:
   - component: {fileID: 2073404683}
   - component: {fileID: 2073404682}
   - component: {fileID: 2073404679}
+  - component: {fileID: 2073404688}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -10082,6 +10083,35 @@ MonoBehaviour:
   movementAudioSource: {fileID: 865497981}
   walkLoop: {fileID: 8300000, guid: 61464be6da9e6eb4f92fbad3e9caa00d, type: 3}
   runLoop: {fileID: 8300000, guid: 2f94c4411505ee04cb0990c3014a7fad, type: 3}
+--- !u!114 &2073404688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073404677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac41d536e6f4f612a750076ecb35ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementConfig: {fileID: 11400000, guid: 5298c7be29d1803029f8c915506479e0, type: 2}
+  healthConfig: {fileID: 11400000, guid: dd715e9ef77428c80a9f47e0a5075449, type: 2}
+  staminaConfig: {fileID: 11400000, guid: 0f6cfd55b8ac8fbcda398e26a08f09dd, type: 2}
+  inputConfig: {fileID: 11400000, guid: e0d43d67dcd727b75bcf12d53ff0b270, type: 2}
+  primaryAttack: {fileID: 11400000, guid: b779bf4b67476dc689ab40762547eb43, type: 2}
+  axeThrow: {fileID: 11400000, guid: 1fd769c51d7cc33849b78a1c71b93760, type: 2}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheck: {fileID: 2022923971}
+  hitboxRoot: {fileID: 1818641083}
+  hurtbox: {fileID: 0}
+  legacyController: {fileID: 2073404685}
+  legacyMovement: {fileID: 2073404686}
 --- !u!212 &2073404687
 SpriteRenderer:
   m_ObjectHideFlags: 0

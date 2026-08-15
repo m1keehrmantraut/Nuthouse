@@ -1,8 +1,10 @@
+using System.Collections;
 using UnityEngine;
+using Nuthouse.Player;
 
 public class StaminaBar : MonoBehaviour
 {
-    [SerializeField] private PlayerHealth playerHealth;
+    [SerializeField] private PlayerFacade playerFacade;
     [SerializeField] private RectTransform staminaLeft;
     [SerializeField] private RectTransform staminaRight;
     [SerializeField] private float maxWidth = 100f;
@@ -10,11 +12,20 @@ public class StaminaBar : MonoBehaviour
 
     private bool isVisible = false;
 
+    private void Awake()
+    {
+        if (playerFacade == null)
+        {
+            var go = GameObject.FindGameObjectWithTag("Player");
+            if (go != null) playerFacade = go.GetComponent<PlayerFacade>();
+        }
+    }
+
     private void Update()
     {
-        float fillAmount = playerHealth.currentStamina / playerHealth.maxStamina;
+        float fillAmount = playerFacade != null ? playerFacade.StaminaNormalized : 0f;
         float newWidth = maxWidth * fillAmount;
-        
+
         staminaLeft.sizeDelta = new Vector2(newWidth, staminaLeft.sizeDelta.y);
         staminaRight.sizeDelta = new Vector2(newWidth, staminaRight.sizeDelta.y);
 
@@ -23,18 +34,18 @@ public class StaminaBar : MonoBehaviour
 
     private void HandleStaminaUI(float fillAmount)
     {
-        bool shouldBeVisible = fillAmount < 1; 
+        bool shouldBeVisible = fillAmount < 1;
 
         if (shouldBeVisible != isVisible)
         {
             isVisible = shouldBeVisible;
-            StartCoroutine(FadeStaminaUI(isVisible ? 1 : 0)); 
+            StartCoroutine(FadeStaminaUI(isVisible ? 1 : 0));
         }
     }
 
-    private System.Collections.IEnumerator FadeStaminaUI(float targetAlpha)
+    private IEnumerator FadeStaminaUI(float targetAlpha)
     {
-        float duration = 0.5f; 
+        float duration = 0.5f;
         float startAlpha = staminaUI.alpha;
         float time = 0;
 

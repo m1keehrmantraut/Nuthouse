@@ -1,8 +1,9 @@
 05-Combat — атака, урон и бросок топора
-Версия: 2.2 · Зависит от: 01, 02, 03, 04
+Версия: 2.3 · Зависит от: 01, 02, 03, 04
 Приоритет: ближняя атака — этап 4; бросок топора — главная цель текущего спринта (этап 5).
-Изменения 2.2: исправлена сигнатура InteractController (LayerMask), уточнён Health.TakeDamage,
-AttackState использует runner.Current, добавлен ReturnAxe в фасад.
+Изменения 2.3: тяжёлая атака как hold-charge — AttackState выбирает HeavyAttack-SO по
+Ctx.PendingHeavyAttack (§6). Уточнён §7.4: расход боезапаса (TakeAxe) — в момент броска
+(end of Windup), а не в Enter (отмена на windup не теряет топор).
 
 1. Общие принципы
 Атака — данные (AttackDefinition), исполнение — код (AttackRunner). Новая атака =
@@ -196,13 +197,19 @@ public sealed class Hurtbox : MonoBehaviour
 Стейт из 02-StateMachine. Логика:
 
 text
-Enter:    runner.Start(первый AttackDefinition цепочки)   // сам публикует AttackStarted;
+Enter:    runner.Start(выбранный AttackDefinition)   // сам публикует AttackStarted;
           Facing.Lock(); Motor.ApplyImpulse(lunge)
 Tick:     runner.Tick(dt);
           если Ctx.PendingHurt.HasValue → выход (атака прерывается);
           если InCancelWindow && буфер Attack && runner.Current.nextInCombo → runner.Start(runner.Current.nextInCombo)
 FixedTick: ничего (lockMovement) либо лёгкое торможение
 Exit:     runner.Cancel(); Facing.Unlock();
+Выбор SO: тяжёлая атака (hold-charge). GroundedState при потреблении InputAction.HeavyAttack
+выставляет Ctx.PendingHeavyAttack=true и переходит в AttackState; обычный Attack сбрасывает
+флаг в false. AttackState.Enter выбирает: heavy && Facade.HeavyAttack != null ? HeavyAttack :
+PrimaryAttack. Механика/fазы/хитбокс — те же (AttackRunner один); отличается урон/лундж/
+animTrigger в HeavyAttack-ассете. Лёгкая/тяжёлая рядом с комбо-цепочкой пока не пересекаются
+(комбо продолжается по Attack из буфера; HeavyAttack-цепочка — FutureComponents/ComboGraph).
 Анимацию при входе ставит PlayerAnimatorDriver, подписанный на
 CombatEvents.AttackStarted (06 §2) — стейт драйвер не вызывает.
 Текущая логика MeleeCombat (кулдаун 0.5 c) заменяется фазами Recovery из SO.
@@ -294,10 +301,11 @@ physicalSpin переключает на body.angularVelocity (тогда freeze
 
 7.4. AxeThrowState
 text
-Enter:    Ctx.Combat.TakeAxe();  Facing.Lock(); CombatEvents.ThrowStarted (анимацию
-          ставит AnimatorDriver по def.animTrigger — прямых вызовов нет)
-          фаза Windup по таймеру
-Момент броска (конец Windup): Ctx.Combat.SpawnAxe(def, Ctx.Facing.Direction)
+Enter:    Facing.Lock(); CombatEvents.ThrowStarted(def) (анимацию ставит AnimatorDriver по
+          def.animTrigger — прямых вызовов нет); фаза Windup по таймеру def.windup.
+          Боезапас НЕ тратится здесь — чтобы отмена на windup не «съедала» топор.
+Момент броска (конец Windup): DoThrow(): Ctx.Combat.TakeAxe() (расход боезапаса строго в
+          момент броска) + Ctx.Combat.SpawnAxe(def, Ctx.Facing.Direction)
           → CombatEvents.ProjectileThrown (звук свистка, лёгкая отдача камеры в будущем)
 Recovery: таймер; буфер Attack в recovery → можно отменить в Idle (опц., по геймдизайну)
 Exit:     Facing.Unlock()

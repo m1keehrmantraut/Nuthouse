@@ -13,7 +13,7 @@ Assets/
 │   ├── Input/               #   InputConfig
 │   ├── Attacks/             #   AttackDefinition-ассеты (Attack1, Attack2, AxeThrow...)
 │   └── Characters/          #   HealthConfig, StaminaConfig, конфиги врагов
-├── Input/                   # PlayerInputActions.inputactions + сгенерированный класс
+├── Input/                   # PlayerInputActions.inputactions (заготовка; пока InputReader собирает карту в коде — 03 §5)
 ├── Scripts/
 │   ├── Core/
 │   │   ├── StateMachine/    # IState, StateBase, PlayerStateMachine, StateRegistry

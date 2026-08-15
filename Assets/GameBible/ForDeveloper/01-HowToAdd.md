@@ -53,14 +53,18 @@ ctx.States.Register(new XState(ctx));
 Exit ничего не оставляет включённым.
 
 3. Новая кнопка / действие
-PlayerInputActions.inputactions → карта Gameplay → новый Action (тип Button/Value)
+Карта Gameplay строится в коде (03 §5): gameplay.AddAction("X", тип, первый биндинг),
+доп. клавиши — action.AddBinding(...) (НЕ повторный AddAction с тем же именем — исключение
+дубликата убивает PlayerFacade.Awake).
 
 биндинги клавиатура/геймпад.
 
 enum InputAction → новое значение; InputConfig → поле TTL + ветка в GetTtl.
 
-InputReader.BindCallbacks → строка map.X.performed += _ => ActionPressed?.Invoke(InputAction.X);
-(для удержаний — started/canceled в свойство).
+InputReader.BindCallbacks → строка map["X"].performed += _ => ActionPressed?.Invoke(InputAction.X);
+(для удержаний — started/canceled в свойство). Иногда фаза решается по отпусканию клавиши,
+а не по performed — например hold-charge тяжёлой атаки: map["Attack"].started/canceled +
+hold ≥ heavyAttackHold → Invoke(HeavyAttack) иначе Attack (03 §5).
 
 Потребитель: стейт (Buffer.TryConsume) либо система вне FSM (Interact, Pause).
 

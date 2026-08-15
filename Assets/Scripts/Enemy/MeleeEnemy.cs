@@ -1,83 +1,81 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
+using Nuthouse.Combat;
+using Nuthouse.Player;
 
-public class MeleeEnemy : MonoBehaviour
+namespace Nuthouse.Enemies
 {
-    private PlayerHealth player;
-
-    [HideInInspector] public bool attackStatus = true;
-    private float attackDamage = 10f;
-    private float timeBtwAttacks = 1.6f;
-
-    [SerializeField] private Animator _animator;
-
-    private EnemyHealth _enemy;
-
-    private int kickCounter = 0;
-
-    void Start()
+    public class MeleeEnemy : MonoBehaviour
     {
-        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
-        _enemy = gameObject.GetComponent<EnemyHealth>();
-    }
-    
-    IEnumerator AttackTime(float count)
-    {
-        attackStatus = false;
-        yield return new WaitForSeconds(count);
-        _animator.SetTrigger("Attack1");
-        attackStatus = true;
-    }
+        private PlayerFacade player;
 
-    IEnumerator HitTime()
-    {
-        float time = 0.1f;
-        if (kickCounter == 2 && !_enemy.isDead)
+        [HideInInspector] public bool attackStatus = true;
+        private float attackDamage = 10f;
+        private float knockback = 3f;
+        private float timeBtwAttacks = 1.6f;
+
+        [SerializeField] private Animator _animator;
+
+        private EnemyHealth _enemy;
+        private int kickCounter = 0;
+
+        void Start()
         {
-            time = 0.3f;
+            var playerGo = GameObject.FindGameObjectWithTag("Player");
+            if (playerGo != null) player = playerGo.GetComponent<PlayerFacade>();
+            _enemy = gameObject.GetComponent<EnemyHealth>();
         }
-        else
+
+        IEnumerator AttackTime(float count)
         {
+            attackStatus = false;
+            yield return new WaitForSeconds(count);
+            if (_animator != null) _animator.SetTrigger("Attack1");
+            attackStatus = true;
+        }
+
+        IEnumerator HitTime()
+        {
+            float time = 0.1f;
+            if (kickCounter == 2 && !_enemy.isDead) time = 0.3f;
+            else if (!_enemy.isDead) time = 0.1f;
+
             if (!_enemy.isDead)
             {
-                time = 0.1f;
+                yield return new WaitForSeconds(time);
+                if (player != null)
+                {
+                    Vector2 dir = (player.transform.position - transform.position).normalized;
+                    var info = new DamageInfo(attackDamage, DamageType.Physical, dir, knockback, gameObject);
+                    player.ApplyDamage(in info);
+                }
             }
         }
-        
-        if (!_enemy.isDead)
+
+        private void Update()
         {
-            yield return new WaitForSeconds(time);
-            player.TakeDamage(attackDamage);    
-        }
-    }
-        
-    private void Update()
-    {
-        float distance = Mathf.Abs(player.transform.position.x - gameObject.transform.position.x);
-        if (distance < 14f && !_enemy.isDead)
-        {
-            if (attackStatus && !_enemy.isDead)
+            if (player == null) return;
+            float distance = Mathf.Abs(player.transform.position.x - gameObject.transform.position.x);
+            if (distance < 14f && !_enemy.isDead)
             {
-                StartCoroutine(HitTime());
+                if (attackStatus && !_enemy.isDead)
+                {
+                    StartCoroutine(HitTime());
 
-                if (kickCounter == 2)
-                {
-                    _animator.SetTrigger("Attack2");
-                    kickCounter = 0;
+                    if (kickCounter == 2)
+                    {
+                        if (_animator != null) _animator.SetTrigger("Attack2");
+                        kickCounter = 0;
+                    }
+                    else
+                    {
+                        if (_animator != null) _animator.SetTrigger("Attack1");
+                        kickCounter++;
+                    }
+
+                    StartCoroutine(AttackTime(timeBtwAttacks));
                 }
-                else
-                {
-                    _animator.SetTrigger("Attack1");
-                    kickCounter++;
-                }
-                
-            
-                StartCoroutine(AttackTime(timeBtwAttacks));
             }
         }
     }
-
 }

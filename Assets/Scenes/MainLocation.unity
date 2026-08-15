@@ -290,6 +290,7 @@ GameObject:
   - component: {fileID: 215370877}
   - component: {fileID: 215370884}
   - component: {fileID: 215370885}
+  - component: {fileID: 215370887}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -584,6 +585,35 @@ MonoBehaviour:
   maxStamina: 100
   currentStamina: 0
   pauseMenu: {fileID: 1608423803}
+--- !u!114 &215370887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215370876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dac41d536e6f4f612a750076ecb35ab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementConfig: {fileID: 11400000, guid: 5298c7be29d1803029f8c915506479e0, type: 2}
+  healthConfig: {fileID: 11400000, guid: dd715e9ef77428c80a9f47e0a5075449, type: 2}
+  staminaConfig: {fileID: 11400000, guid: 0f6cfd55b8ac8fbcda398e26a08f09dd, type: 2}
+  inputConfig: {fileID: 11400000, guid: e0d43d67dcd727b75bcf12d53ff0b270, type: 2}
+  primaryAttack: {fileID: 11400000, guid: b779bf4b67476dc689ab40762547eb43, type: 2}
+  axeThrow: {fileID: 11400000, guid: 1fd769c51d7cc33849b78a1c71b93760, type: 2}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheck: {fileID: 218998350}
+  hitboxRoot: {fileID: 2145381476}
+  hurtbox: {fileID: 0}
+  legacyController: {fileID: 215370879}
+  legacyMovement: {fileID: 215370880}
 --- !u!1 &218998349
 GameObject:
   m_ObjectHideFlags: 0

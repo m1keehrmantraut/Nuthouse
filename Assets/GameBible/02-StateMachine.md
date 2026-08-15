@@ -118,7 +118,7 @@ public sealed class PlayerFacade : MonoBehaviour
         ctx.Ground   = new GroundDetector(groundCheck, movementConfig, groundLayer);
         ctx.Facing   = new FacingController(transform);
         ctx.Motor    = new CharacterMotor(GetComponent<Rigidbody2D>(), movementConfig);
-        ctx.Input    = new InputReader();
+        ctx.Input    = new InputReader(inputConfig);   // inputConfig — ради heavyAttackHold (03 §5)
         ctx.Buffer   = new InputBuffer(inputConfig);
         ctx.Health   = new Health(healthConfig, ctx);          // ctx нужен для PendingHurt
         ctx.Stamina  = new Stamina(staminaConfig);
