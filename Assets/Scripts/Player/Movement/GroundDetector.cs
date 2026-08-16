@@ -12,6 +12,7 @@ namespace Nuthouse.Player.Movement
         private const float CeilingRadius = 0.2f;
 
         public bool IsGrounded { get; private set; }
+        public bool JustLanded { get; private set; }
         public bool CeilingBlocked { get; private set; }
         public Vector2 GroundNormal { get; private set; }
         public float CoyoteTimeLeft { get; private set; }
@@ -64,6 +65,8 @@ namespace Nuthouse.Player.Movement
                 CoyoteTimeLeft = cfg.coyoteTime;
             else
                 CoyoteTimeLeft = Mathf.Max(0f, CoyoteTimeLeft - Time.fixedDeltaTime);
+
+            JustLanded = IsGrounded && !wasGrounded;
         }
 
         public void ConsumeCoyote()

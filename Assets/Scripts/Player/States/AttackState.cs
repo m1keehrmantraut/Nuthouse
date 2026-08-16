@@ -21,8 +21,8 @@ namespace Nuthouse.Player.States
             if (runner == null) runner = new AttackRunner(Ctx);
 
             Ctx.Facing?.Lock();
-            if (def != null && def.lockMovement)
-                Ctx.Motor.ResetVerticalVelocity();
+            if (def != null && def.lockMovement && Ctx.Ground.IsGrounded)
+                Ctx.Motor.ResetVerticalVelocity();   // на земле гасим vert; в воздухе сохраняем (Dead Cells)
 
             if (def != null && def.lungeImpulse > 0f)
             {
@@ -66,8 +66,11 @@ namespace Nuthouse.Player.States
         {
             if (currentLocksMovement())
             {
-                // lockMovement: не едем по инерции — гасим горизонталь (05 §6, 04 §9).
-                Ctx.Motor.ApplyGroundFrictionIfNoInput(0f, fdt);
+                // На земле гасим инерцию (05 §6, 04 §9); в воздухе — гравитация, горизонталь сохраняем (Dead Cells).
+                if (!Ctx.Ground.IsGrounded)
+                    Ctx.Motor.ApplyGravity(fdt);
+                else
+                    Ctx.Motor.ApplyGroundFrictionIfNoInput(0f, fdt);
                 return;
             }
             Ctx.Motor.ApplyGravity(fdt);

@@ -37,7 +37,7 @@ namespace Nuthouse.Player.States
             }
         }
 
-        // Горизонталь — в физике (FixedTick), в воздухе facing не меняем (04 §5).
+        // Горизонталь — в FixedTick. Разворот делает AirborneState.FixedTick (UpdateByInput).
         public override void FixedTick(float fdt)
         {
             base.FixedTick(fdt);   // ApplyGravity
