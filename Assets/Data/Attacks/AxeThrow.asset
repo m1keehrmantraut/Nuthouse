@@ -18,7 +18,7 @@ MonoBehaviour:
   upwardBias: 2
   inheritOwnerVelocity: 1
   spinSpeed: 720
-  physicalSpin: 0
+  physicalSpin: 1
   damage: 35
   knockback: 6
   stickToEnemy: 1

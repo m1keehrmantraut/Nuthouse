@@ -16,3 +16,5 @@ MonoBehaviour:
   attackBuffer: 0.15
   throwBuffer: 0.15
   interactBuffer: 0.25
+  heavyAttackHold: 0.25
+  heavyAttackBuffer: 0.15

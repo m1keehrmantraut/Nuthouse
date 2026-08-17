@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbd434ae8f834bdb8aeb28a571f31648, type: 3}
   m_Name: JumpConfig
   m_EditorClassIdentifier: 
-  jumpForce: 170
-  jumpCutMultiplier: 0.5
-  baseGravityMultiplier: 3
-  riseGravityMultiplier: 1
-  fallGravityMultiplier: 2
-  maxFallSpeed: 32
+  jumpForce: 130
+  jumpCutMultiplier: 0.1
+  baseGravityMultiplier: 7
+  riseGravityMultiplier: 7
+  fallGravityMultiplier: 10
+  maxFallSpeed: 60
   apexThreshold: 1.5
   apexGravityMultiplier: 0.5
