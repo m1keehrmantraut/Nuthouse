@@ -34,18 +34,29 @@ namespace Nuthouse.Player.Movement
 
             if (feet != null)
             {
-                Collider2D[] colliders = Physics2D.OverlapCircleAll(feet.position, GroundRadius, groundLayer);
-                for (int i = 0; i < colliders.Length; i++)
+                // Используем CircleCast строго вниз с небольшим радиусом,
+                // чтобы захватывать поверхность под ногами, но не стены.
+                float castDistance = GroundRadius + 0.05f;
+                RaycastHit2D hit = Physics2D.CircleCast(
+                    feet.position,
+                    GroundRadius,
+                    Vector2.down,
+                    castDistance,
+                    groundLayer
+                );
+
+                if (hit.collider != null && hit.collider.gameObject != feet.root.gameObject)
                 {
-                    if (colliders[i].gameObject != feet.root.gameObject)
+                    // Проверяем, что нормаль направлена достаточно вертикально (угол < 45°)
+                    if (Vector2.Angle(hit.normal, Vector2.up) < 45f)
                     {
                         IsGrounded = true;
-                        GroundNormal = Vector2.up;
+                        GroundNormal = hit.normal;
                     }
                 }
             }
 
-            // Потолок: если ceilingCheck задан, проверяем, что над головой стена.
+            // Проверка потолка (оставляем как есть)
             if (ceiling != null)
             {
                 Collider2D[] hits = Physics2D.OverlapCircleAll(ceiling.position, CeilingRadius, groundLayer);
@@ -59,6 +70,7 @@ namespace Nuthouse.Player.Movement
                 }
             }
 
+            // Логика CoyoteTime и JustLanded
             if (IsGrounded)
                 CoyoteTimeLeft = cfg.coyoteTime;
             else if (wasGrounded)

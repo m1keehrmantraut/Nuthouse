@@ -19,11 +19,12 @@ namespace Nuthouse.Player.States
                 return;
             }
 
-            if (Ctx.Input.RunHeld)
-            {
-                To<RunState>();
-                return;
-            }
+            // Уберем временно переход из сидячего в бег
+            // if (Ctx.Input.RunHeld)
+            // {
+            //     To<RunState>();
+            //     return;
+            // }
         }
 
         public override void FixedTick(float fdt)

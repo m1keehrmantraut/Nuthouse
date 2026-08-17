@@ -38,5 +38,11 @@ namespace Nuthouse.Player.States
             float targetSpeed = running ? Ctx.MovementConfig.runSpeed : Ctx.MovementConfig.walkSpeed;
             Ctx.Motor.MoveHorizontal(inputX, targetSpeed, Ctx.MovementConfig.accel, fdt);
         }
+
+        public override void Exit()
+        {
+            // Отключаем спринт при выходе из состояния бега
+            Ctx.Stamina.SetSprinting(false);
+        }
     }
 }

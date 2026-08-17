@@ -20,11 +20,29 @@ namespace Nuthouse.Player.Movement
         }
 
         public void MoveHorizontal(float inputX, float targetSpeed, float accel, float fdt)
-        {
-            float a = inputX != 0f ? accel : move.decel;
-            float vx = Mathf.MoveTowards(body.linearVelocity.x, inputX * targetSpeed, a * fdt);
-            body.linearVelocity = new Vector2(vx, body.linearVelocity.y);
-        }
+{
+    float currentVx = body.linearVelocity.x;
+    float targetVx = inputX * targetSpeed;
+    float acceleration;
+    float desiredVx;
+
+    if (Mathf.Approximately(inputX, 0f))
+    {
+        // Торможение (нет ввода)
+        acceleration = move.decel;
+        desiredVx = 0f;
+    }
+    else
+    {
+        // Если скорость направлена против ввода — применяем decel для быстрой смены направления
+        bool isOpposing = Mathf.Sign(currentVx) != Mathf.Sign(inputX) && Mathf.Abs(currentVx) > 0.01f;
+        acceleration = isOpposing ? (move.decel + accel / 2) : accel;
+        desiredVx = targetVx;
+    }
+
+    float newVx = Mathf.MoveTowards(currentVx, desiredVx, acceleration * fdt);
+    body.linearVelocity = new Vector2(newVx, body.linearVelocity.y);
+}
 
         public void ApplyGroundFrictionIfNoInput(float inputX, float fdt)
         {
